@@ -43,6 +43,7 @@
     ]
   },
   "devDependencies": {
-    "@playwright/test": "^1.38.1"
+    "@playwright/test": "^1.38.1",
+    "styled-components": "^6.0.8"
   }
 }
