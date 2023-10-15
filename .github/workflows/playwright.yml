@@ -1,5 +1,5 @@
 name: Playwright Tests
-run-name: Pushed by @${{ github.actor }} ${{github.event}}
+run-name: Pushed by @${{ github.actor }} ${{steps.get_head_commit_message.outputs.headCommitMsg}}
 on: push
 jobs:
   test:
